@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  /* outline: 1px solid red; */
+}
+
+@layer components {
+  .container {
+    @apply max-w-[1180px] mx-auto px-5;
+  }
+}
